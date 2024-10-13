@@ -1,6 +1,7 @@
 # ACS WIL Data Analysis Project - Group 3
 
-Stage 2 Deliverables: Data Preparation and Modeling
+# Stage 2 Deliverables: Data Preparation and Modeling
+
 2-1: Data Preparation Deliverables:
 
 - A preprocessed dataset addressing missing data points and encoding categorical variables.
