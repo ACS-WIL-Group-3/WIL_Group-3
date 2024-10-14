@@ -17,6 +17,8 @@
 
 By completing these deliverables, the project team ensures the data is appropriately prepared and analyzed, setting the stage for effective modeling and predicting customer churn.
 
+
+
 ## Data Preparation and Normalisation
 
 **1. Initial Data Overview:**
