@@ -41,3 +41,23 @@ By completing these deliverables, the project team ensures the data is appropria
  - Ensures that features contribute equally to the model performance.
  - The scaled features are displayed to verify normalization.
  - Visual comparison of feature distribution before and after scaling ensures its effectiveness.
+
+
+
+## Clustering Analysis
+
+**1. Optimal Number of Clusters:**
+ - Elbow Method: The elbow plot indicates the optimal number of clusters (k). We plot SSE (Sum of Squared Errors) for a range of k values. The 'elbow' point, where the SSE begins to level off, suggests the optimal k. Here, k=4 appears to be optimal based on the plot.
+ - Visualization: The elbow plot visually demonstrates how the SSE decreases with increasing k, guiding the choice of the optimal number of clusters.
+
+**2. Trained K-Means Model:**
+ - Training the Model: The K-Means model is trained using the optimal number of clusters (k=4). The code includes steps for training the model on the scaled data.
+ -Saving the Model: The trained model is saved as a file (kmeans_model.pkl) for later use or deployment.
+
+**3. Visualization and Labeling of Clusters:**
+ - Adding Cluster Labels: Each data point is assigned a cluster label based on the trained model, and these labels are added to the dataset.
+ - Cluster Visualization: The clusters are visualized using a scatter plot of 'tenure' vs. 'MonthlyCharges', colored by cluster labels. This visual representation helps interpret the clustering results, providing insights into the distribution and characteristics of different clusters.
+
+**3.1. Explanation of Visualizations**
+ - Elbow Plot: Helps determine the optimal number of clusters by showing where the rate of decrease in SSE slows significantly.
+ - Cluster Visualization: Displays how data points are grouped into clusters, aiding in the identification of patterns and insights related to customer churn.
