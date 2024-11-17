@@ -1,19 +1,26 @@
 # ACS WIL Data Analysis Project - Group 3
 
-## Stage 2 Deliverables: Data Preparation and Modeling
+## Telecommunication Customer Churn Project Deliverables
 
-**2-1: Data Preparation Deliverables:**
+**1: Data Preparation Deliverables:**
 
 - A preprocessed dataset addressing missing data points and encoding categorical variables.
 - The dataset is split into distinct training and testing sets to facilitate model validation.
 - Appropriate scaling techniques are applied to normalize the data, enhancing model performance.
   
 
-**2-2: Clustering Analysis Deliverables:**
+**2: Clustering Analysis Deliverables:**
 
 - The optimal number of clusters is identified using the elbow method.
 - A K-Means clustering model is trained on the dataset.
 - Resulting clusters are visualized and labeled for interpretation and actionable insights.
+
+**3: Predictive Modeling Deliverables:**
+
+- Defined ANN Architecture: The input layer specifies the input shape; hidden layers with 64, 32, and 16 units use ReLU activation, and the output layer applies a sigmoid activation for binary classification.
+- Training Process: Dataset preprocessing includes encoding and scaling; the model is trained with 50 epochs, batch size of 32, and the Adam optimizer for improved convergence.
+- Prediction and Performance Evaluation: The model predicts customer churn on test data and evaluates accuracy, precision, recall, and F1-score using a classification report.
+
 
 By completing these deliverables, the project team ensures the data is appropriately prepared and analyzed, setting the stage for effective modeling and predicting customer churn.
 
@@ -61,3 +68,25 @@ By completing these deliverables, the project team ensures the data is appropria
 **3.1. Explanation of Visualizations**
  - Elbow Plot: Helps determine the optimal number of clusters by showing where the rate of decrease in SSE slows significantly.
  - Cluster Visualization: Displays how data points are grouped into clusters, aiding in the identification of patterns and insights related to customer churn.
+
+
+
+## Predictive Modelling
+
+**1. Defined Architecture of ANN Model:**
+- Input Layer: The model is defined with an Input layer that specifies the input shape.
+- Hidden Layers: The model includes multiple hidden layers with 64, 32, and 16 units, respectively, using the ReLU activation function.
+- Output Layer: The model ends with an output layer using a sigmoid activation function for binary classification (churn prediction).
+
+**2. Trained ANN Model on Provided Dataset:**
+- Preprocessing: The dataset is preprocessed by encoding categorical variables and scaling the features.
+- Training: The model is trained using the provided dataset with 50 epochs and a batch size of 32. The adam optimizer is used to enhance model convergence and generalization.
+
+**3. Predicted Customer Churn and Evaluated Model Performance:**
+- Prediction: The model is used to predict customer churn on the test data.
+- Evaluation: The model's performance is evaluated by calculating the accuracy and generating a classification report that includes precision, recall, and F1-score.
+
+*The code achieves the following:*
+- Architecture Definition: Specifies the input, hidden, and output layers.
+- Model Training: Trains the ANN using robust optimization algorithms.
+- Prediction and Evaluation: Predicts customer churn and evaluates the model's performance against the ground truth.
